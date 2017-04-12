@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="#ecede8" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="@id/mainFragment_toolbar" app:background="@color/colorPrimary" app:layout_width="-1" app:layout_height="-2" />
+    <FrameLayout app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/mainFragment_toolbar">
+        <android.support.v7.widget.RecyclerView app:id="@id/mainFragment_rv" app:layout_width="-1" app:layout_height="-1" />
+        <ProgressBar app:layout_gravity="11" app:id="@id/mainFragment_progressBar" app:layout_width="-2" app:layout_height="-2" app:progressDrawable="@drawable/circular_progress_bar" />
+    </FrameLayout>
+    <android.support.design.widget.FloatingActionButton app:id="@id/mainFragment_fab" app:background="@color/colorAccent" app:layout_width="56dp" app:layout_height="56dp" app:layout_margin="16dp" app:src="@drawable/ic_action_add" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:layout_alignParentEnd="true" app:fabSize="0" />
+</RelativeLayout>

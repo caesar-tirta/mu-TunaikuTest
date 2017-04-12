@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="@id/add_toolbar" app:background="@color/colorPrimary" app:layout_width="-1" app:layout_height="-2" app:title="Add New User" />
+    <EditText app:id="@id/add_username" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="30dp" app:layout_marginTop="30dp" app:layout_marginRight="30dp" app:layout_marginBottom="20dp" app:hint="Username" app:maxLines="1" app:layout_below="@id/add_toolbar" app:inputType="1" app:imeOptions="6" />
+    <EditText app:id="@id/add_password" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="30dp" app:layout_marginRight="30dp" app:layout_marginBottom="50dp" app:hint="Password" app:maxLines="1" app:layout_below="@id/add_username" app:inputType="81" app:imeOptions="6" />
+    <Button app:id="@id/add_addBtn" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="30dp" app:layout_marginRight="30dp" app:text="Add" app:layout_below="@id/add_password" />
+</RelativeLayout>
